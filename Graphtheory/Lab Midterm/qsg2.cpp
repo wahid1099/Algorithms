@@ -6,22 +6,7 @@ using namespace std;
 const int N = 1e5 + 5;
 
 int parent[N];
-
-// bool is_parent(int a, int b)
-// {
-
-//     while (b != 0)
-//     {
-
-//         if (parent[b] == a)
-//         {
-//             return true;
-//         }
-//         b = parent[b];
-//     }
-
-//     return false;
-// }
+int check_parent[N];
 
 bool is_parent(int a, int b)
 {
